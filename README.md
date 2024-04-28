@@ -1,6 +1,6 @@
 # RePointFS Utilities Library
 <p style="text-align: center;" align="center">
- <img width="450" src="https://github.com/Ethan0007/RePointFS/blob/development/Images/RepointFS_Ark.png" alt="RePoint">
+ <img width="200" src="https://github.com/Ethan0007/RePointFS/blob/development/Images/RePointFS.png" alt="RePoint">
 </p>
 
 The RePointFS Utilities Library provides a set of tools to facilitate common file system operations, including file downloads from Azure Blob Storage and saving file paths to a SQL Server database.
@@ -12,8 +12,13 @@ The RePointFS Utilities Library provides a set of tools to facilitate common fil
 ## Installation
 You can install the library via NuGet Package Manager:
 ```
- Install-Package YourPackageId
+ Install-Package RePointFS
 ```
+
+## High Level Architecture
+<p style="text-align: center;" align="center">
+ <img width="700" src="https://github.com/Ethan0007/RePointFS/blob/development/Images/RepointFS_Ark.png" alt="RePoint">
+</p>
 
 ## Usage
 ## Downloading Files from Azure Blob Storage
@@ -31,7 +36,7 @@ await repointFS.DownloadAllFilesAsync(destinationDirectory);
 ```
 using FileSystemUtilities;
 
-// Create an instance of RePointFS Manager
+// Create an instance of RePointDB Manager
 var repointDB = new RepointDB(localRootPath, connectionString, azureContainerName);
 
 // Save file paths to SQL Server database table
