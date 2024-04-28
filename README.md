@@ -1,3 +1,6 @@
+[![NuGet Downloads](https://img.shields.io/nuget/dt/RePointFS.svg)](https://github.com/Ethan0007/RePointFS)
+[![NuGet Version](https://img.shields.io/nuget/v/RePointFS.svg)](https://github.com/Ethan0007/RePointFS)
+
 # RePointFS Utilities Library
 <p style="text-align: center;" align="center">
  <img width="200" src="https://github.com/Ethan0007/RePointFS/blob/development/Images/RePointFS.png" alt="RePoint">
@@ -12,7 +15,7 @@ The RePointFS Utilities Library provides a set of tools to facilitate common fil
 ## Installation
 You can install the library via NuGet Package Manager:
 ```
- Install-Package RePointFS
+ Install-Package RePointFS --version 1.0.0
 ```
 
 ## Architecture
