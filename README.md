@@ -15,7 +15,7 @@ You can install the library via NuGet Package Manager:
  Install-Package RePointFS
 ```
 
-## High Level Architecture
+## Architecture
 <p style="text-align: center;" align="center">
  <img width="700" src="https://github.com/Ethan0007/RePointFS/blob/development/Images/RepointFS_Ark.png" alt="RePoint">
 </p>
