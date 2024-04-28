@@ -1,7 +1,7 @@
 [![NuGet Downloads](https://img.shields.io/nuget/dt/RePointFS.svg)](https://github.com/Ethan0007/RePointFS)
 [![NuGet Version](https://img.shields.io/nuget/v/RePointFS.svg)](https://github.com/Ethan0007/RePointFS)
 
-# RePointFS Utilities Library
+# RePointFS : Simplify File Management
 <p style="text-align: center;" align="center">
  <img width="200" src="https://github.com/Ethan0007/RePointFS/blob/development/Images/RePointFS.png" alt="RePoint">
 </p>
