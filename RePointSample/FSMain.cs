@@ -44,7 +44,7 @@ namespace RePoint.FileSystem.Manager.FSSample
 
 
             // Download all files from Azure Blob Storage and Save to Database
-            await fileSystemManager.DownloadAllFilesAsync("SampleTable", "PathName", localRootPath, true);
+            await fileSystemManager.DownloadAllFilesAsync("SampleTable", "ColumnName", localRootPath, true);
 
         }
     }
