@@ -16,17 +16,17 @@ namespace RePoint.FileSystem.Manager.FSSample
             var azureConnectionString = "your-azure-storage-connection-string";
             var azureContainerName = "your-container-name";
 
-            var fileSystemManager = new RePointFS(localRootPath, azureConnectionString, azureContainerName);
+            var repointFS = new RePointFS(localRootPath, azureConnectionString, azureContainerName);
 
             // Upload a file
-            await fileSystemManager.UploadFileAsync(@"C:\example.txt", "example.txt", useAzureStorage: true);
+            await repointFS.UploadFileAsync(@"C:\example.txt", "example.txt", useAzureStorage: true);
 
             // Check if a file exists
-            var fileExists = await fileSystemManager.FileExistsAsync("example.txt", useAzureStorage: true);
+            var fileExists = await repointFS.FileExistsAsync("example.txt", useAzureStorage: true);
             Console.WriteLine($"File exists: {fileExists}");
 
             // Download a file
-            await fileSystemManager.DownloadFileAsync("example.txt", @"C:\Downloads\example.txt", useAzureStorage: true);
+            await repointFS.DownloadFileAsync("example.txt", @"C:\Downloads\example.txt", useAzureStorage: true);
         }
 
         static async Task DB(string[] args)
