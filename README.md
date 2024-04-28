@@ -1,6 +1,6 @@
 # RePointFS Utilities Library
 <p style="text-align: center;" align="center">
- <img width="200" src="https://github.com/Ethan0007/RePointFS/blob/development/Images/RePointFS.png" alt="RePoint">
+ <img width="450" src="https://github.com/Ethan0007/RePointFS/blob/development/Images/RepointFS_Ark.png" alt="RePoint">
 </p>
 
 The RePointFS Utilities Library provides a set of tools to facilitate common file system operations, including file downloads from Azure Blob Storage and saving file paths to a SQL Server database.
