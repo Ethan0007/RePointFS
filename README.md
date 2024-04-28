@@ -24,6 +24,9 @@ You can install the library via NuGet Package Manager:
 ## Downloading Files from Azure Blob Storage
 ```
 using FileSystemUtilities;
+var localRootPath = @"C:\JHStorage";
+var azureConnectionString = "your-azure-storage-connection-string";
+var azureContainerName = "your-container-name";
 
 // Create an instance of RePointFS Manager
 var repointFS = new RePointFS(localRootPath, azureConnectionString, azureContainerName);
@@ -35,12 +38,16 @@ await repointFS.DownloadAllFilesAsync(destinationDirectory);
 ## Saving File Paths to SQL Server Database
 ```
 using FileSystemUtilities;
+var azureConnectionString = "your-azure-storage-connection-string";
+var azureContainerName = "your-container-name";
+var localRootPath = @"C:\JHStorage";
+ var sqlConnectionString = "your-sql-server-connection-string"; // Replace with your actual SQL Server connection string
 
 // Create an instance of RePointDB Manager
-var repointDB = new RepointDB(localRootPath, connectionString, azureContainerName);
+var repointDB = new RepointDB(sqlConnectionString, azureConnectionString, azureContainerName);
 
 // Save file paths to SQL Server database table
-await repointDB.DownloadAllFilesAsync(tableName, columnName, destinationDirectory, true);
+await fileSystemManager.DownloadAllFilesAsync("SampleTable", "ColumnName", localRootPath, true);
 ```
 
 ## Configuration
