@@ -8,14 +8,14 @@
     <IsPublishable>True</IsPublishable>
     <ApplicationIcon>favicon (2).ico</ApplicationIcon>
     <Title>RePointFS</Title>
-    <Company>JOEVER MONCEDA</Company>
+    <Company>RePoint</Company>
     <Product>RePoint</Product>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A lightweight C# library for simplifying common file system tasks. Easily download files from Azure Blob Storage and save file paths to a SQL Server database. Simplify your file management workflows with FileSystem Utilities.</Description>
     <Copyright>2024</Copyright>
     <PackageProjectUrl>https://github.com/Ethan0007/RePointFS</PackageProjectUrl>
     <PackageIcon>R1.png</PackageIcon>
-    <RepositoryType>https://github.com/Ethan0007/RePointFS</RepositoryType>
+    <RepositoryType>GIT</RepositoryType>
     <PackageTags>C#, FileSystem , Azure</PackageTags>
     <PackageReleaseNotes>1. Added support for downloading files from Azure Blob Storage.
 2. Implemented functionality to save file paths to a SQL Server database.
@@ -26,10 +26,11 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
 	  <Version>1.0.0.0</Version>
+	  <RepositoryUrl>https://github.com/Ethan0007/RePointFS</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="favicon (2).ico" />
+    <Content Include="Images\favicon %282%29.ico" />
   </ItemGroup>
 
   <ItemGroup>
