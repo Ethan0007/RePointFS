@@ -21,7 +21,7 @@ You can install the library via NuGet Package Manager:
 using FileSystemUtilities;
 
 // Create an instance of RePointFS Manager
-var fileSystemManager = new RePointFS(localRootPath, azureConnectionString, azureContainerName);
+var repointFS = new RePointFS(localRootPath, azureConnectionString, azureContainerName);
 
 // Download all files from Azure Blob Storage to a local directory
 await repointFS.DownloadAllFilesAsync(destinationDirectory);
@@ -32,10 +32,10 @@ await repointFS.DownloadAllFilesAsync(destinationDirectory);
 using FileSystemUtilities;
 
 // Create an instance of RePointFS Manager
-var repointFS = new RePointFS(localRootPath, connectionString, azureContainerName);
+var repointDB = new RepointDB(localRootPath, connectionString, azureContainerName);
 
 // Save file paths to SQL Server database table
-await repointFS.DownloadAllFilesAsync(tableName, columnName, destinationDirectory, true);
+await repointDB.DownloadAllFilesAsync(tableName, columnName, destinationDirectory, true);
 ```
 
 ## Configuration
