@@ -15,7 +15,7 @@ The RePointFS Utilities Library provides a set of tools to facilitate common fil
 ## Installation
 You can install the library via NuGet Package Manager:
 ```
- Install-Package RePointFS --version 1.0.0
+ Install-Package RePointFS --version 1.0.1
 ```
 
 ## Architecture
